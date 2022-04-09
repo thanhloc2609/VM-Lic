@@ -1,0 +1,18 @@
+Mware® Workstation 16 Player (16.1.1 build-17801498)
+
+FA1M0-89YE3-081TQ-AFNX9-NKUC0
+
+
+
+VMware Workstation Pro v16 Serial Key - DiamondMonday
+
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+YF390-0HF8P-M81RQ-2DXQE-M2UT6
+ZF71R-DMX85-08DQY-8YMNC-PPHV8
+AZ3E8-DCD8J-0842Z-N6NZE-XPKYF
+
+
+more here: https://textuploader.com/dvbw6
+
+# For uninstall VMWare Player
+sudo vmware-installer -u vmware-player
