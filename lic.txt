@@ -12,6 +12,12 @@ ZF71R-DMX85-08DQY-8YMNC-PPHV8
 AZ3E8-DCD8J-0842Z-N6NZE-XPKYF
 
 
+# For install VMWare Workstation Pro v16
+sudo apt update
+sudo apt install build-essential -y
+sudo bash VMware-Workstation-Full-16.2.1-18811642.x86_64.bundle
+sudo vmware-modconfig --console --install-all
+
 more here: https://textuploader.com/dvbw6
 
 # For install VMWare Player
