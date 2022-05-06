@@ -14,5 +14,11 @@ AZ3E8-DCD8J-0842Z-N6NZE-XPKYF
 
 more here: https://textuploader.com/dvbw6
 
+# For install VMWare Player
+sudo apt update
+sudo apt install build-essential linux-headers-generic
+
+sudo ./getplayer-linux --required --eulas-agreed
+
 # For uninstall VMWare Player
 sudo vmware-installer -u vmware-player
