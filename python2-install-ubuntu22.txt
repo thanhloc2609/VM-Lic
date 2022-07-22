@@ -1,0 +1,13 @@
+# check python2 version
+python2 --version
+
+# install python2 on ubuntu 22
+apt update -y
+apt install python2 -y
+python2 --version
+
+# set python2 as the default python version to run apps
+ls /usr/bin/python*
+update-alternatives --list python
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+sudo update-alternatives --config python
