@@ -3,3 +3,5 @@
 echo password | sudo -S mount -t cifs -o username=username,password=password,domain=domain-name,uid=uid,gid=gid,forceuid,forcegid //source destination
 #fstab ntfs
 device       destination  ntfs-3g rw,defaults     0 0
+# rsyncs to copy
+rsync -azvh --delete --bwlimit=100 srouce destination
