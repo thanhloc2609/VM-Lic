@@ -1,0 +1,4 @@
+#script map smb
+echo locpro_629 | sudo -S mount -t cifs -o username=pos.it,password=Locpro_629,domain=plusone-groups.com,uid=1000,gid=1000,forceuid,forcegid //192.168.3.241/itdept /home/loc/data_itdept/
+#fstab ntfs
+/dev/sdb2       /home/loc/data  ntfs-3g rw,defaults     0 0
