@@ -5,3 +5,23 @@ echo password | sudo -S mount -t cifs -o username=username,password=password,dom
 device       destination  ntfs-3g rw,defaults     0 0
 # rsyncs to copy
 rsync -azvh --delete --bwlimit=100 srouce destination
+# addvise more swap ram on centos
+df -h
+# check partion / 
+dd if=/dev/zero of=/swapfile count=2G bs=1MiB
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+free -m
+# map swap to fstab
+vi /etc/fstab
+# add this code into fstab file
+/swapfile    swap   swap    sw    0 0
+# Tweak Your Swap Settings (Optional)
+cat /proc/sys/vm/swappiness
+# default 30%
+sudo sysctl vm.swappiness=10
+# Cache Pressure
+cat /proc/sys/vm/vfs_cache_pressure
+# default 100
+sudo sysctl vm.vfs_cache_pressure=50
